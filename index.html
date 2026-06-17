@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Urbano | Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header id="inicio">
+        <nav class="navbar">
+            <div class="logo">
+                Sabor Urbano
+            </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="hamburguesa">
+                ☰
+            </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Sabor Urbano</h1>
+            <p>
+                El mejor sabor artesanal en cada bocado
+            </p>
+
+            <a href="#servicios" class="boton">
+                Ver menú
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- NOSOTROS -->
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+
+            <p>
+                En Sabor Urbano preparamos alimentos con ingredientes frescos
+                y recetas únicas. Nuestro objetivo es ofrecer una experiencia
+                deliciosa con platillos preparados con calidad y pasión.
+            </p>
+        </section>
+
+
+        <!-- SERVICIOS -->
+        <section id="servicios">
+
+            <h2>Nuestro Menú</h2>
+
+            <div class="tarjetas">
+
+                <article class="card">
+                    <h3>🍔 Hamburguesas</h3>
+                    <p>
+                        Hamburguesas artesanales con ingredientes frescos
+                        y salsas especiales.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>🍕 Pizzas</h3>
+                    <p>
+                        Pizzas caseras con masa suave, queso e ingredientes
+                        seleccionados.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>🥤 Bebidas</h3>
+                    <p>
+                        Bebidas naturales y especiales para acompañar
+                        tus comidas.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>🍟 Combos</h3>
+                    <p>
+                        Combos familiares ideales para compartir con amigos
+                        y familiares.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FORMULARIO -->
+        <section id="contacto">
+
+            <h2>Contáctanos</h2>
+
+            <form id="formulario">
+
+                <input 
+                type="text" 
+                id="nombre"
+                placeholder="Nombre">
+
+                <input 
+                type="email" 
+                id="correo"
+                placeholder="Correo electrónico">
+
+
+                <select id="comida">
+                    <option value="">
+                        Selecciona tu platillo favorito
+                    </option>
+
+                    <option>
+                        Hamburguesa
+                    </option>
+
+                    <option>
+                        Pizza
+                    </option>
+
+                    <option>
+                        Combo familiar
+                    </option>
+
+                </select>
+
+
+                <textarea 
+                id="mensaje"
+                placeholder="Mensaje">
+                </textarea>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+            <p id="respuesta"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>
+            Redes sociales:
+            Instagram | Facebook | TikTok
+        </p>
+
+        <p>
+            © 2026 Sabor Urbano
+        </p>
+
+        <p>
+            Proyecto realizado por: Fabio Castillo y Diego Josue
+        </p>
+
+    </footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
